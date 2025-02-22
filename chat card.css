@@ -1,0 +1,29 @@
+.card {
+    border: 2px solid black;
+    width: 500px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    background-image: url(faded-office.png);
+    background-size: cover;
+    margin-top: 75px;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    border-bottom: 2px solid blue;
+}
+
+button {
+    margin-left: 25px;
+    background: rgb(0, 119, 255);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+h1 {
+    margin-top: 50px;
+}

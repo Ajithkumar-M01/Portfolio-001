@@ -1,0 +1,33 @@
+body {
+    color: #82a5ca;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+}
+
+#hero {
+    /* we should use # to call id in the css */
+    background: url(space.jpg);
+    background-size: cover;
+    padding: 150px 0 200px 0;
+}
+
+.button {
+    background: white;
+    border: none;
+    padding: 6px 12px;
+    font-family: inherit;
+    color: inherit;
+    font-weight: bold;
+}
+
+img {
+    width: 200px;
+}
+
+.line {
+    border-bottom: 5px solid whitesmoke;
+}
+
+#head {
+    text-shadow: 3px 3px 10px beige;
+}

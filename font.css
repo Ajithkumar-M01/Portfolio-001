@@ -1,0 +1,18 @@
+@font-face {
+  font-family: godfather;
+  src: url("corleone.regular.ttf");
+}
+
+body {
+  font-family: godfather;
+  font-size: 50px;
+  margin-left: 25vw;
+}
+
+h3 {
+  margin-top: 20vh;
+  margin-bottom: -4vh;
+}
+h1 {
+  margin-top: 0;
+}

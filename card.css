@@ -1,0 +1,27 @@
+body {
+    margin: 20px;
+}
+
+.pic {
+    width: 100px;
+}
+
+.card {
+    background: #ddebf8;
+    color: #2b2839; 
+    /* for font color, we just use color */
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.border {
+    /* utility class - we use this class at many places in the html */
+    /* border: 2px solid #d8cefe; */
+    text-align: center;
+    border-bottom: 10px solid #d8cefe;
+}

@@ -1,0 +1,58 @@
+.div-one {
+    /* always use dot to call the class in css */
+    margin-top: 100px;
+    
+} 
+
+.google-logo {
+    display: block;
+    width: 250px ;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /* auto is used to push the object completely to left or right corner and it requires display: block inorder to work */
+}
+
+input {
+    display: block;
+    width: 400px;
+    line-height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 30px;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
+.button1 {
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;   */
+
+    /* the above tags will affct the display flex in the div-two */
+
+    margin-top: 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background: rgb(234, 229, 229);
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.div-two {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* .b1 {
+    margin-right: 5px;
+}
+
+.b2 {
+    margin-left: 5px;
+} */
+
